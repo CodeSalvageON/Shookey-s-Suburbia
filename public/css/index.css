@@ -1,0 +1,140 @@
+/* Natural Tags */ 
+
+body {
+  margin: 0;
+  color: #3e60ab;
+  background-color: black;
+}
+
+/* Ids */
+
+#world {
+  width: 800px;
+  height: 600px;
+  border-radius: 8px;
+}
+
+#choose-username-input, #home-name {
+  color: red;
+  border-color: black;
+  background-color: black;
+  font-family: 'Courier New', monospace;
+}
+
+#home {
+  width: 800px;
+  height: 600px; 
+  background-size: cover; 
+}
+
+#home-bg, #result-bg {
+  width: 800px;
+  height: 600px;
+  position: relative;
+  background-size: cover;
+}
+
+#static-tv, #static-result {
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 600px;
+  position: absolute;
+}
+
+#create-home {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+#lore {
+  top: 16px;
+  left: 0px;
+  position: absolute;
+}
+
+#explore {
+  top: 48px; 
+  left: 0px;
+  position: absolute;
+}
+
+#discord {
+  top: 32px;
+  left: 0px; 
+  position: absolute;
+}
+
+#create-home-div {
+  width: 800px;
+  height: 600px;
+  background-color: black;
+}
+
+#create-home-btn {
+  border: hidden;
+  background-color: purple;
+  font-family: 'Courier New', monospace;
+}
+
+#create-home-btn:hover {
+  cursor: pointer;
+  background-color: plum;
+}
+
+#explore-result {
+  top: 16px;
+  left: 0px;
+  position: absolute;
+}
+
+#return-from-create-home {
+  border: hidden;
+  background-color: purple;
+  font-family: 'Courier New', monospace;
+}
+
+#return-from-create-home:hover {
+  cursor: pointer;
+  background-color: plum;
+}
+
+#return-from-result {
+  top: 32px;
+  left: 0px;
+  position: absolute;
+}
+
+#new-notice {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-color: black;
+}
+
+#return-from-the-neighborhood {
+  background-color: purple;
+  font-family: 'Courier New', monospace;
+}
+
+#return-from-the-neighborhood:hover {
+  cursor: pointer;
+  background-color: plum;
+}
+
+#the-neighborhood-scroller {
+  width: 800px;
+  height: 600px;
+}
+
+/* Classes */
+
+.tv-option {
+  background-color: black;
+}
+
+.tv-option:hover {
+  cursor: pointer;
+  background-color: plum;
+}

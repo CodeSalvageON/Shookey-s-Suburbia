@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title>Shookey's Suburbia</title>
+    
+    <!-- External Libraries -->
+
+    <link href="https://codesalvageon.github.io/magichat/styles/index.css" rel="stylesheet" type="text/css">
+
+    <!-- Local CSS --> 
+    
+    <link href="/css/index.css" rel="stylesheet" type="text/css">
+  </head>
+  <body class="crt">
+    <div class="center">
+      <h2 class="glow-red"><tt>Shookey's Suburbia</tt></h2> 
+      <br/>
+      <div id="world" class="glow-red center black"> 
+        <tt>
+          <div id="text-box" align="left"> 
+          </div>
+          <div id="choose-username" align="left"> 
+            <form id="choose-username-form">
+              <p>Choose a username: ><input type="text" id="choose-username-input" placeholder="Click me..." required/></p>
+            </form>
+          </div>
+        </tt>
+        <div id="home">
+          <div id="home-bg">
+            <img src="/images/static.gif" id="static-tv"/>
+            <div id="tv-options"> 
+              <tt id="create-home" class="tv-option zoom">▶ CREATE HOME</tt>
+              <br/>
+              <tt id="lore" class="tv-option zoom">▶ SHOOKEY'S LORE</tt>
+              <br/>
+              <tt id="discord" class="tv-option zoom">▶ SHOOKEY'S DISCORD SERVER</tt>
+              <br/>
+              <tt id="explore" class="tv-option zoom">▶ EXPLORE THE NEIGHBORHOOD</tt>
+            </div>
+          </div> 
+        </div>
+        <div id="create-home-div"> 
+          <tt>Liminal Home Generation</tt>
+          <tt id="return-from-create-home" class="zoom">RETURN HOME</tt>
+          <form id="create-home-form">
+            <tt>Home Name: <input type="text" id="home-name" maxlength="100" placeholder="CLICK ME" required/></tt> 
+            <button id="create-home-btn" class="zoom">CREATE HOME</button>
+          </form>
+          <img src="/images/kingfisher.jpg" width="320" height="341.5"/>
+        </div>
+        <div id="result"> 
+          <div id="result-bg"> 
+            <img src="/images/static.gif" id="static-result"/>
+            <tt id="new-notice">Your new house is now in the neighborhood.</tt>
+            <tt id="explore-result" class="tv-option zoom">▶ EXPLORE THE NEIGHBORHOOD</tt>
+            <tt id="return-from-result" class="tv-option zoom">▶ RETURN HOME</tt>
+          </div>
+        </div>
+        <div id="the-neighborhood">
+          <tt>The Neighborhood</tt>
+          <tt id="return-from-the-neighborhood" class="zoom">RETURN HOME</tt> 
+          <iframe id="the-neighborhood-scroller" class="add-scroll" src="https://shookeys-suburbia.codesalvageon.repl.co/homes" frameBorder="0"> 
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Audio -->
+
+    <audio src="/sounds/vhs.mp3" id="vhs-sound"></audio>
+    
+    <!-- External libraries -->
+    
+    <script src="https://codesalvageon.github.io/magichat/scripts/jquery.js"></script>
+
+    <!-- Local JS -->
+
+    <script src="/scripts/world.js"></script>
+    <script src="/scripts/load.js"></script>
+    <script src="/scripts/forms.js"></script>
+    <script src="/scripts/buttons.js"></script>
+  </body>
+</html>
